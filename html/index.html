@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="keywords" content="graphic, character, music, webdesign, グラフィック, キャラクター, ミュージック, ウェブデザイン">
+        <meta name="author" content="DIGITALCOFFIN">
+        <meta name="description" content="Portfolio of one-person studio DIGITALCOFFIN">
+        <title>digitalc0ffin</title>
+                    <script>
+                 try {
+                if (!sessionStorage.getItem("introPlayed")) {
+                    document.documentElement.classList.add("intro");
+                    sessionStorage.setItem("introPlayed", "1");
+                }
+            }  catch (e) {}
+            </script>
+        <link rel="stylesheet" href="../css/indexstyle.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&family=Geist:wght@100..900&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Geist+Mono:ital,wght@0,100..900;1,100..900&family=Geist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    </head>
+    <body id="mainbody">
+        <!-- Background only -->
+        <div class="bodycontainer" aria-hidden="true">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+
+        <header>
+            <div class="headerword">
+                <p>/home</p>
+            </div>
+        </header>
+
+        <main>
+            <div class="bodymain">
+                <div class="title">
+                    <h1>DIGITAL<br>COFFIN</h1>
+                    <h2 id="subtitle">one-person design studio</h2>
+                </div>
+                <div class="logo">
+                    <img src="../media/digitalogo.png" alt="DIGITALCOFFIN Vector Logo">
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <nav class="navbar">
+                <a href="index.html">/home</a>
+                <a href="works.html">/works</a>
+                <div class="dropdown">
+                    <button class="dropbtn" type="button">&gt;about</button>
+                    <div class="dropcontent">
+                        <a href="operator.html">/operator</a>
+                        <a href="logs.html">/logs</a>
+                    </div>
+                </div>
+                <a href="contact.html">/contact</a>
+            </nav>
+            <div class="extrainfo">
+                <p><a href="https://www.youtube.com/watch?v=-3RCme2zZRY" target="_blank" rel="noopener">ver.111000</a></p>
+                <p>IVII</p>
+            </div>
+        </footer>
+    </body>
+</html>
