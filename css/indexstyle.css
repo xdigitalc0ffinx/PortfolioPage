@@ -507,7 +507,7 @@ button{
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    border: 1px solid #111111;
+    border: 0.1rem solid #F6F6F6;
     padding: 1rem;
     animation: fade-up 0.5s 0.4s backwards;
 }
@@ -518,7 +518,7 @@ button{
 
 .img-box {
     width: 100%;
-    height: 15rem;
+    height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
