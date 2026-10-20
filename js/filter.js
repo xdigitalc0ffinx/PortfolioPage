@@ -39,7 +39,7 @@ const product = [
         image: '../media/emotioneatercover.png',
         title: 'EMOTION EATER',
         category: 'Music',
-        description: 'First single of my modern metalcore band. Did voices, lyrics, album art and video editing for this single.<br>Listen to it <a href="https://www.youtube.com/watch?v=jbM0inghqoU">here</a>.',
+        description: 'First single of my modern metalcore band. Did voices, lyrics, album art and video editing for this single.<br>Listen to it <a href="https://www.youtube.com/watch?v=jbM0inghqoU" target="_blank">here</a>.',
     },
     {
         id:1,

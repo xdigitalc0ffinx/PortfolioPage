@@ -542,3 +542,100 @@ button{
     min-height: 70px;
     gap: 0.5rem;
 }
+
+/*Contact Starts*/
+
+.bodycontact{
+     width: 95%;
+     display: flex;
+     justify-content: space-between;
+     margin: 0 auto;
+     align-items: flex-end;
+     min-height: 60vh;
+}
+
+.contacttitle{
+    font-size: 5rem;
+    font-weight: bold;
+    text-align: left;
+    animation: fade-up 0.5s;
+    max-width: 60%;
+}
+
+.contacttitle h1 {
+    font-family: Geist;
+    line-height: 0.8;
+}
+.contacttitle #contsubtitle {
+    font-size: 2rem;
+    font-weight: 200;
+    animation: fade-up 0.5s 0.2s backwards;
+
+}
+
+.contact-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    min-height: 60vh;
+}
+
+.contact-left{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1.2rem;
+    padding-top: 60%;
+}
+
+.contact-left-title{
+font-weight: 600;
+font-size: 2rem;
+font-family: Geist;
+margin-bottom: 0.25rem;
+}
+
+.contact-left-title hr{
+    border: none;
+    width: 9.8rem;
+    height: 5px;
+    background-color: #F6F6F6;
+    border-radius: 0.8rem;
+    margin-bottom: 1.8rem;
+}
+
+ .contact-inputs{
+     width: 25rem;
+     height: 3rem;
+     border: none;
+     outline: none;
+     padding-left: 2rem;
+     border-radius: 3rem;
+     color: #1d1d1d;
+     font-weight: 500;
+}
+
+.contact-left textarea{
+    height: 9rem;
+    padding-top: 1rem;
+    border-radius: 1.2rem;
+}
+
+.contact-inputs::placeholder{
+    color: dimgraySS;
+}
+
+.contact-left button{
+    display: flex;
+    align-items: center;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    color: #f6f6f6;
+    gap: 0.8rem;
+    border: none;
+    border-radius: 4rem;
+    background: linear-gradient(270deg, #B3001B, #1d1d1d);
+    cursor: pointer;
+    width: auto
+    ;
+}
