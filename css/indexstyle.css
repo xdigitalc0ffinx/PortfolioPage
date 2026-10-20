@@ -294,13 +294,17 @@ footer {
 /*Operator Starts*/
 
 .bodymainop {
-    width: 80%;
+    width: 90%;
     display: flex;
     flex-direction: column;
     align-items: center;
     column-gap: 2rem;
     padding: 1rem;
     gap: 1rem;
+}
+
+.page-operator main{
+    padding-top: 3rem;
 }
 
 
@@ -374,10 +378,9 @@ footer {
 }
 
 .bandcol {
-    flex: 1 1 14rem;           /* grow equally, at least 14rem wide */
+    flex: 1 1 14rem;           
     display: flex;
     flex-direction: column;
-   /* content inside each column stacks */
     gap: 1rem;
 }
 
@@ -391,12 +394,75 @@ footer {
 }
 
 .socials{
-        background-color: color-mix(in srgb, #262626 25%,transparent);
-        padding: 1rem;
-        border-radius: 1rem;
+    background-color: color-mix(in srgb, #262626 25%,transparent);
+    padding: 1rem;
+    border-radius: 1rem;
 
 }
 
+.profilerow {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.profilerow #mainprofile {
+    width: auto;
+    flex: 3 1 30rem;
+}
+
+#skillsprofile {
+    flex: 1 1 16rem;
+    box-sizing: border-box;
+    background-color: color-mix(in srgb, #262626 25%, transparent);
+    padding: 1rem 1.5rem;
+    border-radius: 1rem;
+    filter: drop-shadow(.75em .75em 1em black);
+    animation: fade-up 0.5s 0.1s backwards;
+}
+
+#skillsprofile h3 {
+    font-family: Geist;
+    font-weight: 200;
+    font-size: 1.5rem;
+    margin: 1rem 0 0.75rem;
+}
+
+#skillsprofile h3:first-child {
+    margin-top: 0;
+}
+
+.skilllist {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.skilllist li {
+    background-color: #1d1d1d;
+    padding: 0.6rem 0.8rem;
+    border-radius: 0.5rem;
+    font-size: 0.9rem;
+}
+
+.skilllist li span {
+    color: #B3001B;
+    margin-right: 0.5rem;
+}
+
+.skilltags {
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.skilltags li {
+    border-radius: 2rem;
+    padding: 0.4rem 0.9rem;
+}
 /*Works Start*/
 
 .bodymain.bodymainwrks{
@@ -578,6 +644,7 @@ button{
     align-items: center;
     justify-content: space-evenly;
     min-height: 60vh;
+    animation: fade-up 0.5s 0.4s backwards;
 }
 
 .contact-left{
