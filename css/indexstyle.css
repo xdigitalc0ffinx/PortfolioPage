@@ -388,9 +388,10 @@ footer {
     width: 60%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: left;
     text-align: center;
     animation: fade-down 0.5s 0.2s backwards;
+    gap: 1rem;
 }
 
 .socials{
